@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "builds": [
+    {
+      "src": "api/BardApi.py",
+      "use": "@vercel/python"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "api/BardApi.py"
+    },
+    {
+      "src": "/api(.*)",
+      "dest": "api/BardApi.py"
+    }
+  ]
+}
