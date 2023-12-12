@@ -1,7 +1,12 @@
 from flask import Flask, request, jsonify
 from bardapi import Bard
 import requests
+
+from dotenv import load_dotenv
 import os
+
+# Load variables from the .env file
+load_dotenv()
 
 
 BARD_API_KEY = os.environ.get('BARD_API_KEY')
