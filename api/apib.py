@@ -1,9 +1,12 @@
 from flask import Flask, request, jsonify
 from bardapi import Bard
 import requests
+import os
 
 
-BARD_API_KEY = 'dAga7-P7PY1zNCG2YaQZqKC3IIbvfiH20kSWd9Cj7bvHPZSvvFi1nej8njEBUGmgln0IRA.'
+BARD_API_KEY = os.environ.get('BARD_API_KEY') or 'dQi19JgLLk07_rX95uyujUmuNl0l6joqYpjmYmydujIxns-SqIZV_vSKjrCVHS4T9HsWpQ.'
+
+
 
 session = requests.Session()
 session.headers = {
