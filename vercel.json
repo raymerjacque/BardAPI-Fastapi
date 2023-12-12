@@ -15,13 +15,5 @@
       "src": "/api(.*)",
       "dest": "api/BardApi.py"
     }
-  ],
-  "projectSettings": {
-    "buildCommand": null,
-    "devCommand": null,
-    "framework": "python",
-    "commandForIgnoringBuildStep": "",
-    "installCommand": null,
-    "outputDirectory": null
-}
+  ]
 }
