@@ -4,7 +4,7 @@ import requests
 import os
 
 
-BARD_API_KEY = os.environ.get('BARD_API_KEY') or 'dQi19JgLLk07_rX95uyujUmuNl0l6joqYpjmYmydujIxns-SqIZV_vSKjrCVHS4T9HsWpQ.'
+BARD_API_KEY = os.environ.get('BARD_API_KEY') or 'eAi19LXBjrcfeackbhezep8ZqVqI0YEOTTJrqmbict0TDcYku3DAizOhu2HJ0cOyiWHZuQ.'
 
 
 
