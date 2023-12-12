@@ -19,7 +19,7 @@
   "projectSettings": {
     "buildCommand": null,
     "devCommand": null,
-    "framework": "nextjs",
+    "framework": "python",
     "commandForIgnoringBuildStep": "",
     "installCommand": null,
     "outputDirectory": null
