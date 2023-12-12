@@ -10,6 +10,7 @@ load_dotenv()
 
 
 BARD_API_KEY = os.environ.get('BARD_API_KEY')
+print(BARD_API_KEY)
 
 
 

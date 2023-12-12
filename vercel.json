@@ -15,5 +15,13 @@
       "src": "/api(.*)",
       "dest": "api/BardApi.py"
     }
-  ]
+  ],
+  "projectSettings": {
+    "buildCommand": null,
+    "devCommand": null,
+    "framework": "nextjs",
+    "commandForIgnoringBuildStep": "",
+    "installCommand": null,
+    "outputDirectory": null
+}
 }
